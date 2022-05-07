@@ -7,7 +7,7 @@ import Example from "./Example";
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/e-shopper/">
     <App />
   </Router>,
   document.getElementById("root")
